@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-.next
+
 
 # testing
 /coverage
@@ -27,3 +27,4 @@ yarn-error.log*
 # Environment Variables
 .env
 .env.build
+.gitignore
