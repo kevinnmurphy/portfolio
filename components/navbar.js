@@ -29,12 +29,13 @@ const Navbar = () => {
               >
                 <a>Blog</a>
               </Link>
-              <Link
-                href='/resume'
-                className='bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium'
+              <a
+                href='https://www.dropbox.com/s/np9mynict9nhank/KevinMurphyResume.pdf?dl=0'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <a>Resume</a>
-              </Link>
+              </a>
             </div>
           </div>
           <div className='absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'>

@@ -13,13 +13,9 @@ export default function Home({ allPostsData, allProjectsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section>
-        <h1 className='px-10 pt-10 font-extrabold items-center text-9xl'>
-          Creation
-        </h1>
-        <h1 className='pb-12 px-10 font-extrabold items-center'>
-          Dream.Design.Do.
-        </h1>
+      <section className='grid justify-center'>
+        <h1 className='px-10 pt-10 font-extrabold text-9xl'>Visualize</h1>
+        <h1 className='pb-12 px-4 font-extrabold'>Dream.Design.Develop.</h1>
         {/* <h1 style={{ color: 'gray' }}>Artist.Designer.Engineer.</h1> */}
       </section>
       <section className={utilStyles.headingMd}>
@@ -69,10 +65,10 @@ export default function Home({ allPostsData, allProjectsData }) {
           ))}
         </ul>
       </section>
-      <section>
+      {/* <section>
         <a name='contact' id='contact' />
         #contact
-      </section>
+      </section> */}
     </Layout>
   );
 }
