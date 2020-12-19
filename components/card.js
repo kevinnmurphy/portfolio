@@ -2,7 +2,9 @@ import React from 'react';
 import { FaGithub, FaGitkraken, FaExternalLinkAlt } from 'react-icons/fa';
 import utilStyles from '../styles/utils.module.css';
 
-const card = ({ data: { title, description, image, linkF, linkB, linkD } }) => {
+const card = ({
+  data: { title, description, image, linkF, linkB, linkD, stack },
+}) => {
   const linkBase = 'https://github.com/kevinnmurphy/';
   return (
     <div className={utilStyles.card}>
@@ -28,7 +30,7 @@ const card = ({ data: { title, description, image, linkF, linkB, linkD } }) => {
             </a>
             <a
               className='m-1 justify-end'
-              href={linkBase + linkD}
+              href={linkD}
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -38,9 +40,7 @@ const card = ({ data: { title, description, image, linkF, linkB, linkD } }) => {
         </div>
 
         <p className='pt-3'>{description}</p>
-        <small className={utilStyles.lightText}>
-          {/* <Date dateString={date} /> */}
-        </small>
+        <small className={utilStyles.lightText}>{stack}</small>
       </div>
       <div className='flex-col'>
         <img src={image} />

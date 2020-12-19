@@ -34,7 +34,7 @@ const Navbar = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <a>Resume</a>
+                Resume
               </a>
             </div>
           </div>
