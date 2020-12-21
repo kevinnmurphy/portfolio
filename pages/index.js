@@ -14,8 +14,8 @@ export default function Home({ allPostsData, allProjectsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className='grid justify-center'>
-        <h1 className='px-10 pt-10 font-extrabold text-9xl'>Visualize</h1>
-        <h1 className='pb-12 px-4 font-extrabold'>Dream.Design.Develop.</h1>
+        <h1 className={`font-extrabold ${utilStyles.motto}`}>Visualize</h1>
+        <h1 className='font-extrabold'>Dream.Design.Develop.</h1>
         {/* <h1 style={{ color: 'gray' }}>Artist.Designer.Engineer.</h1> */}
       </section>
       <section className={utilStyles.headingMd}>
@@ -24,7 +24,7 @@ export default function Home({ allPostsData, allProjectsData }) {
           Hello, my name is [<b>Kevin Murphy</b>]
         </p>
         <br></br>
-        <p>
+        <p className={utilStyles.p}>
           A full stack engineer, team lead, designer, and artist. With 10 years
           of tech art experience in video games. Specializing in agile
           development, UX and system design, creating pipelines, project
