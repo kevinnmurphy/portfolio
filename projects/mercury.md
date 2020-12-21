@@ -7,7 +7,7 @@ linkB: 'Mercury-Backend'
 linkD: 'https://project-mercurial.netlify.app'
 
 image: 'https://images.unsplash.com/photo-1594935975218-a3596da034a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
-imageAlt: '/images/mercury.jpg'
+imageAlt: '/images/mercury.png'
 
 stack: 'JAVASCRIPT RAILS POSTGRES REST APIS GOOGLE MAPS'
 ---
