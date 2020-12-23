@@ -2,6 +2,8 @@
 title: 'Mercury'
 description: 'Trip planning app, where you can input coordinates or click on the map to find the fastest route.'
 
+id: 3
+
 linkF: 'Mercury-Frontend'
 linkB: 'Mercury-Backend'
 linkD: 'https://project-mercurial.netlify.app'

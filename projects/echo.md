@@ -2,6 +2,8 @@
 title: 'Echo'
 description: 'Collaborative playlist creation app, using Spotify API and Auth0.'
 
+id: 2
+
 linkF: 'project-echo'
 linkB: 'echo-api'
 linkD: 'https://echo-music.netlify.app'
