@@ -38,11 +38,13 @@ export default function Home({ allPostsData, allProjectsData }) {
       >
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
-          {allProjectsData.map((data) => (
-            <li key={data.id} className='shadow-md'>
-              <Card data={data} />
-            </li>
-          ))}
+          {allProjectsData
+            .sort((a, b) => (a.id > b.id ? 1 : -1))
+            .map((data) => (
+              <li key={data.id} className='shadow-md'>
+                <Card data={data} />
+              </li>
+            ))}
         </ul>
       </section>
       <section
@@ -65,6 +67,11 @@ export default function Home({ allPostsData, allProjectsData }) {
           ))}
         </ul>
       </section>
+      {/* <section
+        name='footer'
+        id='footer'
+        className='border-b-2 bg-gray-200 h-24'
+      ></section> */}
       {/* <section>
         <a name='contact' id='contact' />
         #contact
