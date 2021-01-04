@@ -5,9 +5,8 @@ import Social from './social';
 const Navbar = () => {
   return (
     <nav
-      // className='bg-gray-200'
       id='navbar'
-      className='border-b-4 bg-gradient-to-r from-red-500 to-yellow-300'
+      className='border-b-2 bg-gradient-to-r from-red-500 to-yellow-300'
     >
       <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
         <div className='relative flex items-center justify-between h-16'>
