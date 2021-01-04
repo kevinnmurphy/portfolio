@@ -7,6 +7,7 @@ const card = ({
   data: { title, description, image, imageAlt, linkF, linkB, linkD, stack },
 }) => {
   const linkBase = 'https://github.com/kevinnmurphy/';
+  const size = '600x300';
   return (
     <div className={styles.card}>
       <div className='flex-row'>
@@ -43,13 +44,15 @@ const card = ({
         <p className='pt-3'>{description}</p>
         <small className={utilStyles.lightText}>{stack}</small>
       </div>
-      <div className='styles.cardImage'>
+      <div className='styles.cardImage responsive'>
         <img
-          src={image}
-          className='styles.cardImage responsive'
+          src={image + size}
+          className=''
           onMouseOver={(e) => (e.currentTarget.src = imageAlt)}
-          onMouseOut={(e) => (e.currentTarget.src = image)}
+          onMouseOut={(e) => (e.currentTarget.src = image + size)}
           alt={title}
+          // sizes='(max-width: 800px) 100vw, 800px'
+          loading='lazy'
         />
       </div>
     </div>
