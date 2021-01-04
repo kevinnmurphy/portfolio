@@ -19,6 +19,7 @@ const card = ({
               href={linkBase + linkF}
               target='_blank'
               rel='noopener noreferrer'
+              name='Frontend'
             >
               <FaGithub />
             </a>
@@ -27,6 +28,7 @@ const card = ({
               href={linkBase + linkB}
               target='_blank'
               rel='noopener noreferrer'
+              name='Backend'
             >
               <FaServer />
             </a>
@@ -35,6 +37,7 @@ const card = ({
               href={linkD}
               target='_blank'
               rel='noopener noreferrer'
+              name='Deploy'
             >
               <FaExternalLinkAlt />
             </a>

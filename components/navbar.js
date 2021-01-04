@@ -32,6 +32,7 @@ const Navbar = () => {
                 href='https://www.dropbox.com/s/np9mynict9nhank/KevinMurphyResume.pdf?dl=0'
                 target='_blank'
                 rel='noopener noreferrer'
+                name='Resume'
               >
                 Resume
               </a>
