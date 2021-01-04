@@ -9,7 +9,8 @@ linkB: ''
 linkD: ''
 
 image: 'https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80'
-imageAlt: '/images/atlantis.png'
+# imageAlt: '/images/atlantis.png'
+imageAlt: 'https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80'
 
 stack: 'REACT APOLLO GRAPHQL'
 ---
