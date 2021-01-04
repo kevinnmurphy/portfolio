@@ -45,7 +45,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eee;
   transition: all 0.7s ease-in;
 }
 
@@ -53,5 +52,4 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: lightblue;
 }
