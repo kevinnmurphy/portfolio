@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaGitkraken, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaServer, FaExternalLinkAlt } from 'react-icons/fa';
 import utilStyles from '../styles/utils.module.css';
 import styles from './card.module.css';
 
@@ -27,7 +27,7 @@ const card = ({
               target='_blank'
               rel='noopener noreferrer'
             >
-              <FaGitkraken />
+              <FaServer />
             </a>
             <a
               className='m-1 justify-end'
@@ -49,6 +49,7 @@ const card = ({
           className='styles.cardImage responsive'
           onMouseOver={(e) => (e.currentTarget.src = imageAlt)}
           onMouseOut={(e) => (e.currentTarget.src = image)}
+          alt={title}
         />
       </div>
     </div>
