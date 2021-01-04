@@ -4,8 +4,8 @@ description: 'Log your diets through meal and food creation, get total macros, a
 
 id: 4
 
-linkF: 'https://github.com/kevinnmurphy/Iaso'
-linkB: 'https://github.com/kevinnmurphy/Iaso'
+linkF: 'Iaso'
+linkB: 'Iaso'
 linkD: 'https://project-iaso.herokuapp.com/'
 
 image: 'https://images.unsplash.com/photo-1461009683693-342af2f2d6ce?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8eWVsbG93JTIwcGxhdGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
