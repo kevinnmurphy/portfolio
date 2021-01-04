@@ -9,7 +9,7 @@ const Social = () => {
         href='https://github.com/kevinnmurphy'
         target='_blank'
         rel='noopener noreferrer'
-        name='Github'
+        aria-label='Github'
       >
         <FaGithub />
       </a>
@@ -18,7 +18,7 @@ const Social = () => {
         href='https://linkedin.com/in/kevinnmurphy'
         target='_blank'
         rel='noopener noreferrer'
-        name='LinkedIn'
+        aria-label='LinkedIn'
       >
         <FaLinkedin />
       </a>
@@ -27,7 +27,7 @@ const Social = () => {
         href='mailto:kevinnealmurphy@gmail.com'
         target='_blank'
         rel='noopener noreferrer'
-        name='Gmail'
+        aria-label='Gmail'
       >
         <FaEnvelope />
       </a>
