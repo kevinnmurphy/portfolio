@@ -5,7 +5,7 @@
   "background_color": "#000000",
   "display": "minimal-ui",
   "scope": "/",
-  "start_url": "/https://portfolio.kevinnmurphy.vercel.app/",
+  "start_url": "/",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
