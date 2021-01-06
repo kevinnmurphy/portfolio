@@ -14,9 +14,11 @@ const Navbar = () => {
         <meta http-equiv='X-UA-Compatible' content='IE=edge' />
         <meta
           name='viewport'
-          content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'
+          content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5'
         />
-        <meta property='og:locale' content='en' />
+        <meta name='msapplication-TileColor' content='#ffffff' />
+        <meta name='msapplication-TileImage' content='/ms-icon-144x144.png' />
+        <meta name='theme-color' content='#ffffff' />
         <meta
           name='Description'
           content='Website about Kevin Murphy, fullstack engineer, designer, artist.'
@@ -27,6 +29,7 @@ const Navbar = () => {
         />
 
         <link rel='manifest' href='/manifest.json' />
+
         <link
           rel='apple-touch-icon'
           sizes='57x57'
@@ -96,10 +99,6 @@ const Navbar = () => {
           sizes='16x16'
           href='/favicon-16x16.png'
         />
-        <link rel='manifest' href='/manifest.json' />
-        <meta name='msapplication-TileColor' content='#ffffff' />
-        <meta name='msapplication-TileImage' content='/ms-icon-144x144.png' />
-        <meta name='theme-color' content='#ffffff' />
       </Head>
       <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
         <div className='relative flex items-center justify-between h-16'>
