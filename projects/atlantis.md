@@ -8,8 +8,8 @@ linkF: ''
 linkB: ''
 linkD: 'https://github.com/kevinnmurphy/'
 
+image: 'https://source.unsplash.com/zni0zgb3bkQ/800x400'
 imageAlt: '/images/atlantis.png'
-imageAlt: 'https://source.unsplash.com/zni0zgb3bkQ/800x400'
 
 stack: 'REACT APOLLO GRAPHQL'
 ---
