@@ -1,14 +1,15 @@
 import React from 'react';
+import utilStyles from '../styles/utils.module.css';
 
 const image = ({ image, imageAlt, title }) => {
-  //   const size = '600x400';
+  // const size = '/600x400';
   const size = '';
 
   return (
     <div className='styles.cardImage responsive'>
       <img
         src={image + size}
-        className=''
+        className='img'
         onMouseOver={(e) => (e.currentTarget.src = imageAlt)}
         onMouseOut={(e) => (e.currentTarget.src = image + size)}
         alt={title}
