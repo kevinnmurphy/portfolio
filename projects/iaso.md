@@ -1,5 +1,5 @@
 ---
-title: 'FoodLogger'
+title: 'Nutro'
 description: 'Log your diets through meal and food creation, get total macros, and share with friends.'
 
 id: 4
