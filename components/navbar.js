@@ -124,7 +124,7 @@ const Navbar = () => {
                 <a>Blog</a>
               </Link>
               <a
-                href='https://www.dropbox.com/s/np9mynict9nhank/KevinMurphyResume.pdf?dl=0'
+                href='https://www.dropbox.com/s/oeaqsaa2smd7jrm/KevinMurphyResume.pdf?dl=0'
                 target='_blank'
                 rel='noopener noreferrer'
                 name='Resume'
