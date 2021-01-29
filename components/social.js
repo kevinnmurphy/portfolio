@@ -1,5 +1,10 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaCalendarAlt,
+} from 'react-icons/fa';
 
 const Social = () => {
   return (
@@ -30,6 +35,15 @@ const Social = () => {
         aria-label='Gmail'
       >
         <FaEnvelope />
+      </a>
+      <a
+        className='inline-flex p-1'
+        href='https://calendly.com/kevinnmurphy'
+        target='_blank'
+        rel='noopener noreferrer'
+        aria-label='Calendar'
+      >
+        <FaCalendarAlt />
       </a>
     </div>
   );
