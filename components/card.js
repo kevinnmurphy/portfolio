@@ -15,33 +15,39 @@ const card = ({
         <div className='border-b flex justify-between'>
           <h2 className='font-semibold'>{title}</h2>
           <div className='flex justify-between'>
-            <a
-              className='m-1 justify-end'
-              href={linkBase + linkF}
-              target='_blank'
-              rel='noopener noreferrer'
-              aria-label={`${title} Frontend`}
-            >
-              <FaGithub />
-            </a>
-            <a
-              className='m-1 justify-end'
-              href={linkBase + linkB}
-              target='_blank'
-              rel='noopener noreferrer'
-              aria-label={`${title} Backend`}
-            >
-              <FaServer />
-            </a>
-            <a
-              className='m-1 justify-end'
-              href={linkD}
-              target='_blank'
-              rel='noopener noreferrer'
-              aria-label={`${title} Live`}
-            >
-              <FaExternalLinkAlt />
-            </a>
+            {linkF && (
+              <a
+                className='m-1 justify-end'
+                href={linkBase + linkF}
+                target='_blank'
+                rel='noopener noreferrer'
+                aria-label={`${title} Frontend`}
+              >
+                <FaGithub />
+              </a>
+            )}
+            {linkB && (
+              <a
+                className='m-1 justify-end'
+                href={linkBase + linkB}
+                target='_blank'
+                rel='noopener noreferrer'
+                aria-label={`${title} Backend`}
+              >
+                <FaServer />
+              </a>
+            )}
+            {linkD && (
+              <a
+                className='m-1 justify-end'
+                href={linkD}
+                target='_blank'
+                rel='noopener noreferrer'
+                aria-label={`${title} Live`}
+              >
+                <FaExternalLinkAlt />
+              </a>
+            )}
           </div>
         </div>
 

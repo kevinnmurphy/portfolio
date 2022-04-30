@@ -5,7 +5,7 @@ import Date from '../../components/date';
 
 import utilStyles from '../../styles/utils.module.css';
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params = {} }) {
   const postData = await getPostData(params.id);
   return {
     props: {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
   };
 }
 
-export default function Post({ postData }) {
+export default function Post({ postData = {} }) {
   return (
     <Layout>
       <Head>

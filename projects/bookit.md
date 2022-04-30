@@ -4,14 +4,14 @@ description: 'Project management app to track jobs, estimates, materials, and pr
 
 id: 1
 
-linkF: ''
+linkF: 'https://github.com/kevinnmurphy/'
 linkB: ''
-linkD: 'https://github.com/kevinnmurphy/'
+linkD: ''
 
 image: 'https://source.unsplash.com/zni0zgb3bkQ'
-imageAlt: '/images/atlantis.png'
+imageAlt: '/images/bookit.png'
 
-stack: 'REACT APOLLO GRAPHQL'
+stack: 'REACT FAUNA GRAPHQL'
 ---
 
 This is the first project.

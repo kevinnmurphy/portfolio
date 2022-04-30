@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Date from '../components/date';
 import Card from '../components/card';
 
-export default function Home({ allPostsData, allProjectsData }) {
+export default function Home({ allPostsData = [], allProjectsData = [] }) {
   return (
     <Layout home>
       <Head>

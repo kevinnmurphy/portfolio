@@ -8,8 +8,9 @@
 }
 
 .cardImage {
-  display: inline-block;
-  position: relative;
+  /* display: inline-block;
+  position: relative; */
+  max-height: 300px;
   overflow: hidden;
 }
 
